@@ -1,0 +1,11 @@
+#--
+# output: 
+#  pdf_document: default
+#  html_document: default 
+#--
+# You need to install LaTex for creating PDF files and connect the Rstudio and LaTex afterward
+
+# Slack information
+# On my mac I was able to get the pdf function working by first downloading MacTex at this link: https://tug.org/mactex/mactex-download.html and then putting this code in the console: 
+# install.packages(‘tinytex’)
+# tinytex::install_tinytex()  # install TinyTeX
